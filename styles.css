@@ -1,0 +1,113 @@
+header {
+  /* Slightly transparent header */
+    background-color:rgb(191,135,85);
+    color: rgb(122, 53, 21, 0.874);
+    padding: 20px;
+    text-align: center;
+    /* Box shadow */
+    border: 5px outset rgb(215,91,6);
+}
+
+body {
+  background-color: rgb(152,100,76) 
+}
+
+h1 {
+  padding: 10px 0;
+  text-align: center;
+  font-family: Georgia;
+  text-shadow: 2px 2px #3b0f0b;
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(122, 53, 21);
+  padding: 10px;
+  text-align: center;
+  font-family: Georgia;
+  text-shadow: 1px 1px #3b0f0b;
+  font-size: 30px;
+} 
+
+ul{
+  color:white;
+  padding: 5px;
+  border: 3px outset rgb(215,91,6);
+  width: 700px;
+  height: 200px;
+  margin: auto;
+  background-color:rgb(191,135,85);
+}
+
+ol {
+  color:white;
+  padding: 8px;
+  border: 3px outset rgb(215,91,6);
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  background-color: rgb(191,135,85);
+ }
+/* (152,100,76) */ 
+
+ul li{
+  display: block;
+  margin-top: 2px;
+  text-align: auto;
+  color: rgb(58, 27, 27);
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: px;
+}
+
+ol li{
+  margin-top: 17px;
+  text-align: center,right ;
+  color:rgb(58, 27, 27);
+  font-weight: bold;
+  margin-bottom: 13px;
+  font-size: 18px;
+  margin-left: 20px;
+ }
+
+img{
+  border: 5px outset rgb(215,91,6);
+}
+
+p{
+  color: rgb(58, 27, 27);
+  font-size: 17px;
+  font-weight: bold;  
+}
+
+form{
+  color: rgb(58, 27, 27);
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px auto;
+  margin-bottom: 13px;
+  margin-top: 50px;  
+}
+
+footer a{
+color: block;
+margin: 20px auto;
+max-width: 100%;
+}
+
+footer a:hover {
+text-decoration: rgb(97, 46, 9);
+}
+
+button{
+  background-color: #b18248;
+  color: rgb(103, 48, 8);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #e07b00
+}
